@@ -5,5 +5,6 @@
 pkgs.mkShell {
   packages = [
     pkgs.kubeseal
+    pkgs.kustomize
   ];
 }

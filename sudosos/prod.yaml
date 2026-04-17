@@ -10,6 +10,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: sudosos
+  serviceAccountName: app-deployer
   targetNamespace: sudosos-prod
 ---
 apiVersion: v1
